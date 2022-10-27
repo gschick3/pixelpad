@@ -1,0 +1,43 @@
+input[type=number] {
+    width: 40px;
+}
+
+.color-select {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin: 10px;
+}
+
+.color-select .color {
+    box-sizing: border-box;
+    border: 4px solid black;
+    height: 30px;
+    aspect-ratio: 1/1;
+}
+
+.color.selected {
+    height: 35px;
+}
+
+div.grid {
+    display: grid;
+    margin: 20px;
+}
+
+div.row {
+    display: flex;
+}
+
+div.el {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    aspect-ratio: 1/1;
+}
+
+div.el.colored {
+    background-color: blue;
+}

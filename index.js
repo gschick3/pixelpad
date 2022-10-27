@@ -39,11 +39,6 @@ const reset = function() {
     drawBoard(rows, cols);
 }
 
-container.addEventListener('contextmenu', (e) => {
-    e.preventDefault();
-    reset();
-});
-
 const colors = ["black", "gray", "brown", "red", "orange", "yellow", "green", "limegreen", "blue", "deepskyblue", "purple"];
 
 let cs = document.querySelector(".color-select");
